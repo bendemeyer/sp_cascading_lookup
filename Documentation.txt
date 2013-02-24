@@ -1,0 +1,8 @@
+﻿If you ever need to remove this solution from your farm, you may need to manually remove
+FLDTYPES_beenjamminchilddropdownlist.xml and FLDTYPES_beenjamminparentdropdownlist.xml
+from the 14 hive/TEMPLATE/XML/ directory.
+
+If you want to place an edit control for these fields on a custom page or page layout, add the following line to the declaration of that page.
+Be sure to insert the deployed solution's full assembly name into the "Assembly" attribute.
+<%@ Register Tagprefix="BeenJamminFieldControls" Namespace="BeenJammin.SharePoint.WebControls" Assembly="[Full Assembly Name Here]" %>
+

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="b625837d-4938-4d80-96be-e29386aa4eb3" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="BeenJammin.SharePoint.CascadingLookups.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl
+          Assembly = "BeenJammin.SharePoint.CascadingLookups, Version=1.0.0.0, Culture=neutral, PublicKeyToken=882d387e76532c02"
+          Namespace = "BeenJammin.SharePoint.WebControls"
+          Safe = "True"
+          TypeName = "ParentDropDownListFieldControl"/>
+        <SafeControl
+          Assembly = "BeenJammin.SharePoint.CascadingLookups, Version=1.0.0.0, Culture=neutral, PublicKeyToken=882d387e76532c02"
+          Namespace = "BeenJammin.SharePoint.WebControls"
+          Safe = "True"
+          TypeName = "ChildDropDownListFieldControl"/>
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="XML\FLDTYPES_BeenJamminchilddropdownlist.xml" />
+    <TemplateFile Location="XML\FLDTYPES_BeenJamminparentdropdownlist.xml" />
+    <TemplateFile Location="ControlTemplates\BeenJamminChildDropDownListFieldControl.ascx" />
+    <TemplateFile Location="ControlTemplates\BeenJamminChildDropDownListFieldEditControl.ascx" />
+    <TemplateFile Location="ControlTemplates\BeenJamminParentDropDownListFieldControl.ascx" />
+    <TemplateFile Location="ControlTemplates\BeenJamminParentDropDownListFieldEditControl.ascx" />
+  </TemplateFiles>
+</Solution>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b625837d-4938-4d80-96be-e29386aa4eb3" solutionId="b625837d-4938-4d80-96be-e29386aa4eb3" resetWebServer="false" name="BeenJammin.SharePoint.CascadingLookups" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="a5839885-b088-471a-a785-c3993a892ae3" />
+    <projectItemReference itemId="37576304-8ad3-47d3-b8a2-976ad815f540" />
+  </projectItems>
+</package>

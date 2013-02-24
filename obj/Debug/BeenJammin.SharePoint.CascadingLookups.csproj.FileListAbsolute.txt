@@ -1,0 +1,6 @@
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CascadingLookups\BeenJammin.SharePoint.CascadingLookups\bin\Debug\Microsoft.Sharepoint.Sandbox.dll
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CascadingLookups\BeenJammin.SharePoint.CascadingLookups\obj\Debug\ResolveAssemblyReference.cache
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CascadingLookups\BeenJammin.SharePoint.CascadingLookups\bin\Debug\BeenJammin.SharePoint.CascadingLookups.dll
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CascadingLookups\BeenJammin.SharePoint.CascadingLookups\bin\Debug\BeenJammin.SharePoint.CascadingLookups.pdb
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CascadingLookups\BeenJammin.SharePoint.CascadingLookups\obj\Debug\BeenJammin.SharePoint.CascadingLookups.dll
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CascadingLookups\BeenJammin.SharePoint.CascadingLookups\obj\Debug\BeenJammin.SharePoint.CascadingLookups.pdb

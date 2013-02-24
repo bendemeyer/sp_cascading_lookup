@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FieldTypes>
+	<FieldType>
+		<Field Name="TypeName">BeenJamminParentDropDownList</Field>
+		<Field Name="ParentType">Text</Field>
+		<Field Name="TypeDisplayName">BeenJammin Fields - Parent Drop Down List</Field>
+		<Field Name="TypeShortDescription">BeenJammin Fields - Parent Drop Down List</Field>
+		<Field Name="UserCreatable">TRUE</Field>
+		<Field Name="ShowInListCreate">TRUE</Field>
+		<Field Name="ShowInSurveyCreate">TRUE</Field>
+		<Field Name="Sortable">TRUE</Field>
+		<Field Name="Filterable">TRUE</Field>
+		<Field Name="ShowInDocumentLibraryCreate">TRUE</Field>
+		<Field Name="ShowInColumnTemplateCreate">TRUE</Field>
+		<Field Name="FieldEditorUserControl">/_ControlTemplates/BeenJamminParentDropDownListFieldEditControl.ascx</Field>
+		<Field Name="FieldTypeClass">BeenJammin.SharePoint.CascadingLookups.ParentDropDownListField,BeenJammin.SharePoint.CascadingLookups, Version=1.0.0.0, Culture=neutral, PublicKeyToken=882d387e76532c02</Field>
+
+		<PropertySchema>
+			<Fields>
+				<Field Name="ParentSiteUrl" Hidden="TRUE" DisplayName="ParentSiteUrl" MaxLength="500" DisplaySize="100" Type="Text"></Field>
+				<Field Name="ParentListName" Hidden="TRUE" DisplayName="ParentListName" MaxLength="500" DisplaySize="100" Type="Text"></Field>
+				<Field Name="ParentListTextField" Hidden="TRUE" DisplayName="ParentListTextField" MaxLength="40" DisplaySize="40" Type="Text"></Field>
+				<Field Name="ParentListValueField" Hidden="TRUE" DisplayName="ParentListValueField" MaxLength="40" DisplaySize="40" Type="Text"></Field>
+			</Fields>
+		</PropertySchema>
+
+		<RenderPattern Name="DisplayPattern">
+			<RenderPattern Name="DisplayPattern">
+				<Switch>
+					<Expr>
+						<Column />
+					</Expr>
+					<Case Value="" />
+					<Default>
+						<HTML><![CDATA[]]></HTML>
+						<Column HTMLEncode="TRUE" />
+					</Default>
+				</Switch>
+			</RenderPattern>
+		</RenderPattern>
+
+	</FieldType>
+
+</FieldTypes>
